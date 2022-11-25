@@ -1,11 +1,11 @@
 const employee = {name:"John", streetAddress:"19789 Groove"}
 
-function updateEmployeeWithKeyAndValue(employee,name,newname){
-     return{...employee,[name]:newname};
+function updateEmployeeWithKeyAndValue(employee,name,newName){
+     return{...employee,[name]:newName};
 }
 
-function destructivelyUpdateEmployeeWithKeyAndValue(employee, name, newname) {
-    employee[name]=newname;
+function destructivelyUpdateEmployeeWithKeyAndValue(employee, name, newName) {
+    employee[name]=newName;
     return employee;
 }
 
